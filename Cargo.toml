@@ -18,18 +18,21 @@ members = [
 ]
 
 [dependencies]
-crfsuite = { git = "https://github.com/snipsco/crfsuite-rs", tag = "0.3.3" }
-snips-nlu-ontology = { git = "https://github.com/snipsco/snips-nlu-ontology", tag = "0.67.1" }
-snips-nlu-utils = { git = "https://github.com/snipsco/snips-nlu-utils", tag = "0.9.1" }
-snips-nlu-parsers = { git = "https://github.com/snipsco/snips-nlu-parsers", tag = "0.4.3" }
-failure = "0.1"
-base64 = "0.10"
-itertools = { version = "0.8", default-features = false }
-log = "0.4"
-lru-cache = "0.1"
+failure = "0.1.8"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-tempfile = "3"
+tempfile = "3.8"
+itertools = "0.12"
+lazy_static = "1.4"
+rmp-serde = "1.1.2"  # Updated from 0.13
+snips-nlu-ontology = { git = "https://github.com/substr2837/snips-nlu-ontology", branch = "update_deps" }
+snips-nlu-parsers = { git = "https://github.com/substr2837/snips-nlu-parsers", branch = "update_deps" }
+snips-nlu-utils = { git = "https://github.com/substr2837/snips-nlu-utils", branch = "update_deps" }
+
+crfsuite = { git = "https://github.com/snipsco/crfsuite-rs", tag = "0.3.3" }
+base64 = "0.10"
+log = "0.4"
+lru-cache = "0.1"
 ndarray = "0.12"
 regex = "1.0"
 csv = "1.0"
