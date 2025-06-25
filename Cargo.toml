@@ -21,7 +21,7 @@ members = [
 crfsuite = { git = "https://github.com/snipsco/crfsuite-rs", tag = "0.3.3" }
 snips-nlu-ontology = { git = "https://github.com/snipsco/snips-nlu-ontology", tag = "0.67.2" }
 snips-nlu-utils = { git = "https://github.com/snipsco/snips-nlu-utils", tag = "0.9.1" }
-snips-nlu-parsers = { git = "https://github.com/snipsco/snips-nlu-parsers", branch = "master" }
+snips-nlu-parsers = { git = "https://github.com/substr2837/snips-nlu-parsers", branch = "master" }
 failure = "0.1"
 base64 = "0.10"
 itertools = { version = "0.8", default-features = false }
